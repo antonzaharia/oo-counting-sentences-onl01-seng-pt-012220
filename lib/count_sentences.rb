@@ -29,7 +29,7 @@ class String
   end
 
   def count_sentences
-    elements = self.split()
+    elements = self.split(/.?!/)
     elements.delete_if{ |e| e.length == 0 }
     elements
 
