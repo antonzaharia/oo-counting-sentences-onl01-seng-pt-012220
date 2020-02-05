@@ -30,7 +30,7 @@ class String
 
   def count_sentences
     elements = self.split()
-    elements.
+    elements.delete_if{ ||}
 
   end
 end
